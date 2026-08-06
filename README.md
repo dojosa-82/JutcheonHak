@@ -53,4 +53,4 @@ One Principle.
 One Universe.
 
 Version 0.1.0
-<img width="1536" height="1024" alt="주천학4D지구좌표체계" src="https://github.com/user-attachments/assets/100d684d-b13b-4bbb-8c9b-9d2a19c93471" />
+<img width="1536" height="1024" alt="주천학4D대통합원형도" src="https://github.com/dojosa-82/JutcheonHak/assets/주천학4D대통합원형도.png" />
