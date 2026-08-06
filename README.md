@@ -53,4 +53,5 @@ One Principle.
 One Universe.
 
 Version 0.1.0
-<img width="1536" height="1024" alt="주천학4D대통합원형도" src="https://github.com/dojosa-82/JutcheonHak/assets/주천학4D대통합원형도.png" />
+
+<img width="1536" height="1024" alt="주천학 대통합 대주천도 마스터 다이어그램" src="https://github.com/user-attachments/assets/f2510094-265e-4b45-b019-1629d0c01f73" />
