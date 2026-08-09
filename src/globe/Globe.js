@@ -24,7 +24,11 @@ export default class Globe{
         this.renderer.setSize(window.innerWidth,window.innerHeight);
 
         document.body.appendChild(this.renderer.domElement);
-
+         window.addEventListener(
+    "resize",
+ 
+    this.onResize
+ ); 
         this.controls=new OrbitControls(
             this.camera,
             this.renderer.domElement
@@ -54,7 +58,19 @@ export default class Globe{
         this.animate();
 
     }
+onResize = () => {
 
+    this.camera.aspect =
+        window.innerWidth / window.innerHeight;
+
+    this.camera.updateProjectionMatrix();
+
+    this.renderer.setSize(
+        window.innerWidth,
+        window.innerHeight
+    );
+
+}
     animate=()=>{
 
         requestAnimationFrame(this.animate);
