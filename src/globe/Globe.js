@@ -11,6 +11,38 @@ export default class Globe{
 
     constructor(){ 
 
+                console.log("=== GLOBE CONSTRUCTOR START ===");
+
+        this.wonsangEngine =
+            new WonsangEngine();
+
+        const jin =
+            this.wonsangEngine.createTaijiState(
+                "震"
+            );
+
+        this.wonsangEngine.applyEncounter(
+            jin,
+            "離"
+        );
+        
+        this.wonsangEngine.applyEncounter(
+            jin,
+           "兌"
+        );
+
+        this.wonsangEngine.applyEncounter(
+            jin,
+           "巽"
+        );
+
+      console.log(
+            "=== 震 → 離 → 兌 → 巽 TEST ==="
+        );
+
+        console.log(
+            jin
+        );
         this.scene=new THREE.Scene();
  
         this.earthGroup =
